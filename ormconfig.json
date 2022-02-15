@@ -4,8 +4,8 @@
     "port": 1443,
     "username": "asa",
     "password": "Qwert12345",
-    "database": "User",
-    "entities": ["dist/src/**/*.entity.js"],
+    "database": "todo",
+    "entities": ["dist/**/*.entity{.js, .js}"],
     "synchronize": false,
     "extra": {"trustServerCertificate": true},
     "options": { "encrypt": false }
