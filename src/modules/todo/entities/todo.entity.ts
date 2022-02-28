@@ -9,6 +9,6 @@ export class Todo {
     title: string;
 
     @Column({ default: false })
-    isComleted: boolean;
+    isCompleted: boolean;
 
 }
